@@ -1,0 +1,36 @@
+$gray-600: rgb(245, 245, 245);
+
+@import "~bootstrap/scss/bootstrap";
+
+body {
+	background-color: #614aa5;
+}
+
+.registerBg {
+	background-color: white;
+	padding: 3em;
+	margin: auto 0;
+}
+
+.group-div:hover {
+	background-color: rgb(250, 250, 250);
+}
+
+.message-box {
+	height: 400px;
+	overflow-y: scroll;
+	scrollbar-width: none;
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}
+
+.message-input::placeholder {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.info-text {
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	margin-bottom: 1rem;
+}
